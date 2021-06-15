@@ -36,7 +36,11 @@ const ChartComponent = ({ data }) => {
     dataSource: {
       // Chart Configuration
       chart: {
-        caption: 'Languages',
+        caption: 'Stars Per Language',
+        decimals: 0,
+        pieRadius: '45%',
+        doughnutRadius: '60%',
+        showPercentValues: 0,
         captionFontColor: '#102a42',
         captionFontBold: 0,
         captionFontSize: 20,
@@ -52,9 +56,7 @@ const ChartComponent = ({ data }) => {
         use3DLighting: 0,
         useDataPlotColorForLabels: 0,
         bgColor: '#FFFFFF',
-        showBorder: 0,
-        decimals: 0,
-        pieRadius: '45%'
+        showBorder: 0
       },
       // Chart Data
       data

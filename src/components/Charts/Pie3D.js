@@ -36,7 +36,7 @@ const ChartComponent = ({ data }) => {
     dataSource: {
       // Chart Configuration
       chart: {
-        caption: 'Stars Per Language',
+        caption: 'Languages',
         captionFontColor: '#102a42',
         captionFontBold: 0,
         captionFontSize: 20,
